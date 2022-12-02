@@ -3,8 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <%
-   	Calendar c = Calendar.getInstance();
-   	int hour=c.get(Calendar.HOUR_OF_DAY);
+    Calendar c = Calendar.getInstance();
+    int hour=c.get(Calendar.HOUR_OF_DAY);
     int minute=c.get(Calendar.MINUTE);
     int second=c.get(Calendar.SECOND);
 %>
