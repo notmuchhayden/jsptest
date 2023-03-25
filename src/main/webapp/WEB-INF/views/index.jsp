@@ -19,7 +19,8 @@
 
 <body>
     <h1>JSP Hello!</h1>
-    <h1>현재시간은 <%=hour %>시 <%=minute %>분 <%=second %>초 입니다.</h1>
-    <c:out value="Hello World" />
+    <h1>현재시간은 <%= hour %>시 <%=minute %>분 <%=second %>초 입니다.</h1>
+    <c:out value="JSTL test : Hello World" />
+    <h2>EL Test : ${message}</h2>
 </body>
 </html>
